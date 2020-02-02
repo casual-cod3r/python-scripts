@@ -14,5 +14,5 @@ no_of_files = 5 # Example - 5 files to upload
 obj = tqdm(range(no_of_files)) 
 
 for i in obj: #iterating through object range to start the progress bar
-  obj.set_description(f'File uploading {i+1}:')  
+  obj.set_description(f'File uploading {i+1}')  
   sleep(1) # adding manual delay. This can be skipped for real example.
