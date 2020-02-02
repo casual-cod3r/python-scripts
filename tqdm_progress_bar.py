@@ -11,7 +11,7 @@ no_of_files = 5 # Example - 5 files to upload
 
 """ Creating a TQDM object so that we can use it later to customize the progress bar. This line will loop through the given range i.e. number of files in this case """
 
-obj = tqdm(range(no_of_files)) 
+obj = tqdm(range(no_of_files), unit = "File")  #Unit can be descriptive as per case. For ex. here it is "File"
 
 for i in obj: #iterating through object range to start the progress bar
   obj.set_description(f'File uploading {i+1}')  
@@ -21,6 +21,6 @@ for i in obj: #iterating through object range to start the progress bar
   """
   #OUTPUT 
   
-  File uploading 5:: 100%|██████████| 5/5 [00:05<00:00,  1.01s/it]
+  File uploading 5:: 100%|██████████| 5/5 [00:05<00:00,  1.00s/File]
       
   """
