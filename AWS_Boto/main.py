@@ -1,6 +1,6 @@
 # This is public code for educational use only. 
 # Please check what instances are you terminating
-# Before terminating, the script checks match to "key" of the instances and then if running, terminate.
+# Before terminating, the script checks match to "key" of the instances and then if running, terminates the instance.
 # Once temrinated the data may be lost!
 
 from boto import ec2
