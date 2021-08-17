@@ -1,2 +1,2 @@
-**Python_Code_Snippets**
-These code snippets are for reference purpose. Feel free to use it as you need it
+# Router_backup_Python
+The following script is the Python script used for backing-up the Cisco router to the TFTP server. 
